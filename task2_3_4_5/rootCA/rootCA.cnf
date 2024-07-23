@@ -1,0 +1,16 @@
+[req]
+distinguished_name = details
+x509_extensions = v3_ca
+
+[details]
+countryName = IN
+stateorProvinceName = Telangana
+localityName = Hyderabad
+organizationName = IITH
+organizationalUnitName = CSE
+commonName = iTS Root R1
+emailAddress = heetp1011@gmail.com
+
+[v3_ca]
+basicConstraints = critical,CA:TRUE
+keyUsage = critical,keyCertSign,cRLSign
