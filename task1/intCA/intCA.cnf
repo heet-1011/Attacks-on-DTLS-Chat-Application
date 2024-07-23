@@ -1,0 +1,15 @@
+[req]
+default_bits = 4096
+distinguished_name = details
+x509_extensions = v3_ca
+
+[details]
+countryName = IN
+stateOrProvinceName = Telangana
+localityName = Hyderabad
+organizationName = IITH
+organizationalUnitName = NS@CSE
+commonName = iTS CA 1R3
+emailAddress = heetp1011@gmail.com
+
+[v3_ca]
